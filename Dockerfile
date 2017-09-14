@@ -10,7 +10,7 @@ RUN tar xzf /tmp/s6-overlay-amd64.tar.gz -C / && \
     apt-get install -y --no-install-recommends bitcoind && \
     rm -rf /usr/share/man/* /usr/share/groff/* /usr/share/info/* /var/cache/man/* /tmp/* /var/lib/apt/lists/*
 
-EXPOSE 19001 19002 19003
+EXPOSE 16001 16002 16003
 
 ENTRYPOINT ["/init"]
 VOLUME ["/data"]

@@ -1,0 +1,210 @@
+2017-09-14 12:53:15 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 12:53:15 Bitcoin version 1.0.3.0-21a81e2 (Jul 18 2017, 15:40:00)
+2017-09-14 12:53:15 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-09-14 12:53:15 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2017-09-14 12:53:15 Default data directory /.bitcoin
+2017-09-14 12:53:15 Using data directory /data/node-alice/regtest
+2017-09-14 12:53:15 Using config file /data/node-alice/bitcoin.conf
+2017-09-14 12:53:15 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 12:53:15 Using 2 threads for script verification
+2017-09-14 12:53:15 HTTP: creating work queue of depth 16
+2017-09-14 12:53:15 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-09-14 12:53:15 HTTP: starting 4 worker threads
+2017-09-14 12:53:15 Using wallet wallet.dat
+2017-09-14 12:53:15 init message: Verifying wallet...
+2017-09-14 12:53:15 CDBEnv::Open: LogDir=/data/node-alice/regtest/database ErrorFile=/data/node-alice/regtest/db.log
+2017-09-14 12:53:15 scheduler thread start
+2017-09-14 12:53:15 Cache configuration:
+2017-09-14 12:53:15 * Using 37.5MiB for block index database
+2017-09-14 12:53:15 * Using 73.6MiB for chain state database
+2017-09-14 12:53:15 * Using 188.9MiB for in-memory UTXO set
+2017-09-14 12:53:15 init message: Loading block index...
+2017-09-14 12:53:15 Opening LevelDB in /data/node-alice/regtest/blocks/index
+2017-09-14 12:53:15 Opened LevelDB successfully
+2017-09-14 12:53:15 Using obfuscation key for /data/node-alice/regtest/blocks/index: 0000000000000000
+2017-09-14 12:53:15 Opening LevelDB in /data/node-alice/regtest/chainstate
+2017-09-14 12:53:15 Opened LevelDB successfully
+2017-09-14 12:53:15 Wrote new obfuscate key for /data/node-alice/regtest/chainstate: 86474bd2388cf3fc
+2017-09-14 12:53:15 Using obfuscation key for /data/node-alice/regtest/chainstate: 86474bd2388cf3fc
+2017-09-14 12:53:15 LoadBlockIndexDB: last block file = 0
+2017-09-14 12:53:15 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2017-09-14 12:53:15 Checking all blk files are present...
+2017-09-14 12:53:15 LoadBlockIndexDB: transaction index disabled
+2017-09-14 12:53:15 Initializing databases...
+2017-09-14 12:53:15 Pre-allocating up to position 0x1000000 in blk00000.dat
+2017-09-14 12:53:15 Acceptable block: ver:1 time:1296688602 size: 285 Tx:1 Sig:1
+2017-09-14 12:53:15 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206  height=0  log2_work=1  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(0tx)
+2017-09-14 12:53:15 init message: Verifying blocks...
+2017-09-14 12:53:15  block index             154ms
+2017-09-14 12:53:15 init message: Loading wallet...
+2017-09-14 12:53:15 nFileVersion = 1000300
+2017-09-14 12:53:15 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2017-09-14 12:53:15 Performing wallet upgrade to 60000
+2017-09-14 12:53:15 keypool added key 1, size=1
+2017-09-14 12:53:15 keypool added key 2, size=2
+2017-09-14 12:53:15 keypool added key 3, size=3
+2017-09-14 12:53:15 keypool added key 4, size=4
+2017-09-14 12:53:15 keypool added key 5, size=5
+2017-09-14 12:53:15 keypool added key 6, size=6
+2017-09-14 12:53:15 keypool added key 7, size=7
+2017-09-14 12:53:15 keypool added key 8, size=8
+2017-09-14 12:53:15 keypool added key 9, size=9
+2017-09-14 12:53:15 keypool added key 10, size=10
+2017-09-14 12:53:15 keypool added key 11, size=11
+2017-09-14 12:53:15 keypool added key 12, size=12
+2017-09-14 12:53:15 keypool added key 13, size=13
+2017-09-14 12:53:15 keypool added key 14, size=14
+2017-09-14 12:53:16 keypool added key 15, size=15
+2017-09-14 12:53:16 keypool added key 16, size=16
+2017-09-14 12:53:16 keypool added key 17, size=17
+2017-09-14 12:53:16 keypool added key 18, size=18
+2017-09-14 12:53:16 keypool added key 19, size=19
+2017-09-14 12:53:16 keypool added key 20, size=20
+2017-09-14 12:53:16 keypool added key 21, size=21
+2017-09-14 12:53:16 keypool added key 22, size=22
+2017-09-14 12:53:16 keypool added key 23, size=23
+2017-09-14 12:53:16 keypool added key 24, size=24
+2017-09-14 12:53:16 keypool added key 25, size=25
+2017-09-14 12:53:16 keypool added key 26, size=26
+2017-09-14 12:53:16 keypool added key 27, size=27
+2017-09-14 12:53:16 keypool added key 28, size=28
+2017-09-14 12:53:16 keypool added key 29, size=29
+2017-09-14 12:53:16 keypool added key 30, size=30
+2017-09-14 12:53:16 keypool added key 31, size=31
+2017-09-14 12:53:16 keypool added key 32, size=32
+2017-09-14 12:53:16 keypool added key 33, size=33
+2017-09-14 12:53:16 keypool added key 34, size=34
+2017-09-14 12:53:16 keypool added key 35, size=35
+2017-09-14 12:53:16 keypool added key 36, size=36
+2017-09-14 12:53:16 keypool added key 37, size=37
+2017-09-14 12:53:16 keypool added key 38, size=38
+2017-09-14 12:53:16 keypool added key 39, size=39
+2017-09-14 12:53:16 keypool added key 40, size=40
+2017-09-14 12:53:16 keypool added key 41, size=41
+2017-09-14 12:53:16 keypool added key 42, size=42
+2017-09-14 12:53:16 keypool added key 43, size=43
+2017-09-14 12:53:16 keypool added key 44, size=44
+2017-09-14 12:53:16 keypool added key 45, size=45
+2017-09-14 12:53:16 keypool added key 46, size=46
+2017-09-14 12:53:16 keypool added key 47, size=47
+2017-09-14 12:53:16 keypool added key 48, size=48
+2017-09-14 12:53:16 keypool added key 49, size=49
+2017-09-14 12:53:16 keypool added key 50, size=50
+2017-09-14 12:53:16 keypool added key 51, size=51
+2017-09-14 12:53:16 keypool added key 52, size=52
+2017-09-14 12:53:16 keypool added key 53, size=53
+2017-09-14 12:53:16 keypool added key 54, size=54
+2017-09-14 12:53:16 keypool added key 55, size=55
+2017-09-14 12:53:16 keypool added key 56, size=56
+2017-09-14 12:53:16 keypool added key 57, size=57
+2017-09-14 12:53:16 keypool added key 58, size=58
+2017-09-14 12:53:16 keypool added key 59, size=59
+2017-09-14 12:53:16 keypool added key 60, size=60
+2017-09-14 12:53:16 keypool added key 61, size=61
+2017-09-14 12:53:16 keypool added key 62, size=62
+2017-09-14 12:53:16 keypool added key 63, size=63
+2017-09-14 12:53:16 keypool added key 64, size=64
+2017-09-14 12:53:16 keypool added key 65, size=65
+2017-09-14 12:53:16 keypool added key 66, size=66
+2017-09-14 12:53:16 keypool added key 67, size=67
+2017-09-14 12:53:16 keypool added key 68, size=68
+2017-09-14 12:53:16 keypool added key 69, size=69
+2017-09-14 12:53:16 keypool added key 70, size=70
+2017-09-14 12:53:16 keypool added key 71, size=71
+2017-09-14 12:53:17 keypool added key 72, size=72
+2017-09-14 12:53:17 keypool added key 73, size=73
+2017-09-14 12:53:17 keypool added key 74, size=74
+2017-09-14 12:53:17 keypool added key 75, size=75
+2017-09-14 12:53:17 keypool added key 76, size=76
+2017-09-14 12:53:17 keypool added key 77, size=77
+2017-09-14 12:53:17 keypool added key 78, size=78
+2017-09-14 12:53:17 keypool added key 79, size=79
+2017-09-14 12:53:17 keypool added key 80, size=80
+2017-09-14 12:53:17 keypool added key 81, size=81
+2017-09-14 12:53:17 keypool added key 82, size=82
+2017-09-14 12:53:17 keypool added key 83, size=83
+2017-09-14 12:53:17 keypool added key 84, size=84
+2017-09-14 12:53:17 keypool added key 85, size=85
+2017-09-14 12:53:17 keypool added key 86, size=86
+2017-09-14 12:53:17 keypool added key 87, size=87
+2017-09-14 12:53:17 keypool added key 88, size=88
+2017-09-14 12:53:17 keypool added key 89, size=89
+2017-09-14 12:53:17 keypool added key 90, size=90
+2017-09-14 12:53:17 keypool added key 91, size=91
+2017-09-14 12:53:17 keypool added key 92, size=92
+2017-09-14 12:53:17 keypool added key 93, size=93
+2017-09-14 12:53:17 keypool added key 94, size=94
+2017-09-14 12:53:17 keypool added key 95, size=95
+2017-09-14 12:53:17 keypool added key 96, size=96
+2017-09-14 12:53:17 keypool added key 97, size=97
+2017-09-14 12:53:17 keypool added key 98, size=98
+2017-09-14 12:53:17 keypool added key 99, size=99
+2017-09-14 12:53:17 keypool added key 100, size=100
+2017-09-14 12:53:17 keypool added key 101, size=101
+2017-09-14 12:53:17 keypool reserve 1
+2017-09-14 12:53:17 keypool keep 1
+2017-09-14 12:53:17  wallet                 2037ms
+2017-09-14 12:53:17 init message: Activating best chain...
+2017-09-14 12:53:17 Bound to [::]:18003
+2017-09-14 12:53:17 Bound to 0.0.0.0:18003
+2017-09-14 12:53:17 mapBlockIndex.size() = 1
+2017-09-14 12:53:17 nBestHeight = 0
+2017-09-14 12:53:17 setKeyPool.size() = 100
+2017-09-14 12:53:17 mapWallet.size() = 0
+2017-09-14 12:53:17 mapAddressBook.size() = 1
+2017-09-14 12:53:17 init message: Loading addresses...
+2017-09-14 12:53:17 ERROR: Read: Failed to open file /data/node-alice/regtest/peers.dat
+2017-09-14 12:53:17 Invalid or missing peers.dat; recreating
+2017-09-14 12:53:17 ERROR: Read: Failed to open file /data/node-alice/regtest/banlist.dat
+2017-09-14 12:53:17 Invalid or missing banlist.dat; recreating
+2017-09-14 12:53:17 torcontrol thread start
+2017-09-14 12:53:17 Loaded 0 addresses from peers.dat  0ms
+2017-09-14 12:53:17 dnsseed thread start
+2017-09-14 12:53:17 Using default DNS seeds.
+2017-09-14 12:53:17 init message: Done loading
+2017-09-14 12:53:17 Loading addresses from DNS seeds (could take a while)
+2017-09-14 12:53:17 0 addresses found from DNS seeds
+2017-09-14 12:53:17 Bitnodes API seeding disabled
+2017-09-14 12:53:17 dnsseed thread exit
+2017-09-14 12:53:17 opencon thread start
+2017-09-14 12:53:17 msghand thread start
+2017-09-14 12:53:17 net thread start
+2017-09-14 12:53:17 addcon thread start
+2017-09-14 12:54:10 keypool added key 102, size=101
+2017-09-14 12:54:10 keypool reserve 2
+2017-09-14 12:54:10 keypool keep 2
+2017-09-14 12:54:18 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 12:55:10 Acceptable block: ver:20000000 time:1505393710 size: 191 Tx:1 Sig:1
+2017-09-14 12:55:10 BLOCK_DOWNLOAD_WINDOW is 8 MAX_BLOCKS_IN_TRANSIT_PER_PEER is 1
+2017-09-14 12:55:10 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 12:55:10 UpdateTip: new best=3510d175e767fd4306225af0b7b2af833d05ef77b6b3e535a51ac15125058966  height=1  log2_work=2  tx=2  date=2017-09-14 12:55:10 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 12:56:18 connect() to 127.0.0.1:18001 failed after select(): Connection refused (111)
+2017-09-14 12:56:23 tor: Thread interrupt
+2017-09-14 12:56:23 torcontrol thread exit
+2017-09-14 12:56:23 addcon thread interrupt
+2017-09-14 12:56:23 scheduler thread interrupt
+2017-09-14 12:56:23 opencon thread interrupt
+2017-09-14 12:56:23 msghand thread interrupt
+2017-09-14 12:56:23 net thread interrupt
+2017-09-14 12:56:23 Shutdown: In progress...
+2017-09-14 12:56:23 StopNode()
+2017-09-14 12:56:23 Shutdown: done
